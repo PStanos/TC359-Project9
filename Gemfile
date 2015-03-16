@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
-gem 'json', '1.4.6'
+gem 'json'
 
 group :development, :test do
   gem 'sqlite3'
@@ -44,8 +44,6 @@ group :doc do
 end
 
 gem 'cat_api'
-
-gem 'geo_ip'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
