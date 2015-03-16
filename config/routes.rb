@@ -1,8 +1,7 @@
 Project9::Application.routes.draw do
   root 'static#home'
   get '/about' => 'static#about'
-  get '/cat-pictures'                 => 'static#cats'
-  get '/cat-pictures/:number_of_cats' => 'static#cats'
+  get '/cat-pictures(/:number_of_cats)' => 'static#cats', as: :cat_pictures
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
