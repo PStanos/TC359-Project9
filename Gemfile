@@ -43,6 +43,8 @@ end
 
 gem 'cat_api'
 
+gem 'geo_ip'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
